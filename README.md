@@ -15,8 +15,18 @@ _by Nadia Ousman_
 
 ---
 ## Initial Setup
+You will be doing most of your work on cloud9 so to create an account . . .
+* Go to https://c9.io/login and click the cat icon at the upper righthand side of the screen
+* 
 
+To make a github account . . .
+* Go to https://github.com/ (the github website)
+* Click Sign up at the upper righthand side of the screen and fill in the information (Username, email address, and password )
+* When you finish filling out this information, click "Create an account" at the bottom of the screen
 
+**You now have a Github account**
+
+* After you click "Create an account", 
 
 ---
 ## Repository Setup
