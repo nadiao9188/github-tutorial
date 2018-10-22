@@ -163,7 +163,9 @@ If you want do undo a step that you took, there are different commands that you 
 
 * `git push origin +master`: Undo pushing all your files to the remote repo, commiting, adding, and editing/start from the beginning (push->commit->add->edit->start)
 
-
+---
+## Markdown Syntax
+This section's contents is meant to be used in files when editing them. This makes the lines look more organized 
 
 
 
