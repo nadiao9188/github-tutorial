@@ -126,9 +126,42 @@ There are two workflows that you can use
   * fork and clone
   * pull
 
+#### Most used Git commands 
+* `git status`:  See which files have been edited since the last commit you made. Files that have been changed or files that are new to the timeline are in red. Files in the stage are in green
+
+* `git add <filename>.txt`: Add files to the staging area
+  * `filename.txt` - Instead of "filename", type the actual name of your file
+
+* `git commit -m "<insert message>"`: Take a “snapshot” of the files/saves your current code on the stage. The message should be in present-tense, describe what you changed, and be short and specific (Ex: "create ‘HTML’ template"). 
+
+* `git push -u origin master`: Sends your most current commit to your remote repo
+  * `push` sending commits to remote repo
+  * `-u`- tells git to remember what remote repo you want to push to
+  * `origin`- the remote we are pushing to 
+  * `master`- the “main” branch of our project
+
 ---
 ## Rolling Back Changes
 
+If you want do undo a step that you took, there are different commands that you can use to undo them, depending on what step you are on now and what step you want to go back to.
+
+* `git checkout -- <filename>.txt`: Undo your edits you made to your file (edit->start)
+
+* `git reset HEAD <filename>.txt`: Undo adding your file to the stage (add->edit)
+
+* `git reset --soft HEAD ~1`: Undo commiting your file (commit->add)
+
+* `git reset HEAD~1`: Undo commiting and adding your file at the same time (commit->add->edit)
+
+* `git reset --hard HEAD~1`: Undo commiting and adding your file, as well as undoing your edits you made to your file at the same time (commit->add->edit->start)
+
+* `git revert <commit sha>`: Undo a specific commit you made (commit->add)
+  * ``commit sha` - list of numbers and letters that defines a specific commit you made. You can get this list by typing in `git log`, which will list all the commits that you have made with the corresponding commit sha.
+
+* `git reset --hard <insert commit sha>`: Undo pushing a certain file to the remote repo, commiting, adding, and editing/start from the beginning (push->commit->add->edit->start)
+  
+
+* `git push origin +master`: Undo pushing all your files to the remote repo, commiting, adding, and editing/start from the beginning (push->commit->add->edit->start)
 
 
 
