@@ -165,8 +165,14 @@ If you want do undo a step that you took, there are different commands that you 
 
 ---
 ## Markdown Syntax
-This section's contents is meant to be used in files when editing them. This makes the lines look more organized 
+This section's contents is meant to be used in files when editing them. This makes what you are typing more organized by controling what is displayed on the file 
 
+* Italics: To make a phrase italic in Markdown, you can surround words with an underscore (_). For example, `_this_` would become italic and look like _this_
 
+* Bold: To make phrases bold in Markdown, surround the words you want bolded with two asterisks (**). The word "text" woud become **text** by typing in `**text**`
+
+*bold and italic = **_”inset text“_**
+*
+*
 
 
