@@ -7,10 +7,12 @@ _by Nadia Ousman_
 Git and Github are great ways to manage and keep track of your code and most developers use them.
 * Git is a version control system that keep "snapshots" (earlier versions) of code. 
   * Runs in the command line.
-* Github is a website(cloud) that stores code on the internet.
+  * Use github to interact with other repositories
+* Github is a website (cloud) that stores code on the internet.
   * Runs in the command line.  
   * You can visually track your changes from Git as well as other peoples changes on their projects.
-  * Makes collaborating on files easier.
+  * Makes collaborating on files easier. 
+     * You can start from someone elses repository using _fork_ and _clone_
 
 **_Git does not require Github but Github requires Git._**
 
