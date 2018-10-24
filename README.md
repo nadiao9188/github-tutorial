@@ -7,10 +7,12 @@ _by Nadia Ousman_
 Git and Github are great ways to manage and keep track of your code and most developers use them.
 * Git is a version control system that keep "snapshots" (earlier versions) of code. 
   * Runs in the command line.
-* Github is a website(cloud) that stores code on the internet.
+  * Use github to interact with other repositories
+* Github is a website (cloud) that stores code on the internet.
   * Runs in the command line.  
   * You can visually track your changes from Git as well as other peoples changes on their projects.
-  * Makes collaborating on files easier.
+  * Makes collaborating on files easier. 
+     * You can start from someone elses repository using _fork_ and _clone_
 
 **_Git does not require Github but Github requires Git._**
 
@@ -64,12 +66,12 @@ Now that you have all your accounts set up, it is time to make your first reposi
 
 #### To make your first repo on cloud9, type in the following to the command line (one at a time).
 * `cd ~/workspace`.
-* `mkdir first-repo` (makes a new folder calles "first-repo").
+* `mkdir first-repo` (makes a new folder called "first-repo").
 * `cd first-repo` (Goes into the new folder).
-* `git init` (this makes the folder a repository)  .
+* `git init` (this makes the folder a repository).
 **You now have your first repo!**
 
-Now we have to create a remote. A remote repo is a repository on Github that allows you to store your code from you local repo (cloud9 in this scenario). It acts as a backup to your local repo.
+Now we have to create a remote. A remote repo is a repository on Github that allows you to store your code from you local repo (cloud9 in this scenario) to the cloud (github in this scenario). It acts as a backup to your local repo.
 
 #### To create a remote repo . . .
 * Go to your github account and on the top-right, click the "+" sign and click "New repository".
@@ -92,7 +94,7 @@ Now it is time to create your first file on your new cloud9 repo.
 
 #### To create your first README file . . .
 * Type `touch README.md` into the command line.  
-**You can now make changes in the file and add and commit them.**
+**You can now make changes in the file, then add and commit them.**
 
 #### To edit, add, and commit your file, one by one type into the command line . . .
 * `c9 README.md` (opens the README file).
