@@ -12,7 +12,7 @@ Git and Github are great ways to manage and keep track of your code and most dev
   * You can visually track your changes from Git as well as other peoples changes on their projects.
   * Makes collaborating on files easier. 
      *   * Use github to interact with other repositories
-     * You can start from someone elses repository using _fork_ and _clone_
+     * You can start from someone elses repository using _fork_ and _clone_ (discused in Workflow and Commands section)
 
 **_Git does not require Github but Github requires Git._**
 
@@ -129,6 +129,19 @@ There are two workflows that you can use
 2. Start at someone elses repo on github.
   * fork and clone
   * pull
+##### Collaboration
+Github allows people to look at different repositories and use it to make edits of their own. They can then send their edits to the original user so they can add it to their own copy if they want to. This process uses the topic of pull requests and fork and clone and the commands `git pull`, `git clone`
+
+**Workflow of Collaboration**
+* Pick the repository you would like to make changes on and click the button on the top-right that says "Clone or download"
+* Copy and paste the SSH clone URL into the command line after typing in `git clone`(This will make a copy of the repo into your c9 workspace)
+* Now go to the original repo and click "Fork" on the top-right, this creates a copy of the repo but on github as a remote repo
+* Copy and paste the SSH clone URL for the new repo into the command line after typing in `git clone`(Make sure you are in the cloned repo when you do this)
+  * Now you can make edits and push them to your forked repo
+* Once you make edits and add, commit, and push them, you can send a pull request to the original repo (This allows the user to look at the changes you made and decide if they want them in their own)
+  * On your forked repo, click "Pull Requests", then click "New pull request"
+
+**You have now went from editing a copy of someone elses repo to sending them a suggestion with your edits**
 
 #### Most used Git commands 
 * `git status`:  See which files have been edited since the last commit you made. Files that have been changed or files that are new to the timeline are in red. Files in the stage are in green.
