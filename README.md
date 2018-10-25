@@ -11,7 +11,7 @@ Git and Github are great ways to manage and keep track of your code and most dev
 * Github is a website (cloud) that stores code on the internet.
   * You can visually track your changes from Git as well as other peoples changes on their projects.
   * Makes collaborating on files easier. 
-     *   * Use github to interact with other repositories
+     * Use github to interact with other repositories
      * You can start from someone elses repository using _fork_ and _clone_ (discused in Workflow and Commands section)
 
 **_Git does not require Github but Github requires Git._**
@@ -26,7 +26,7 @@ You will be doing all of your work on the websites github and cloud9.
 * Select the the free mode then click "Continue" to go to Step 3.
   * The two boxes between these are optional. Read and select for your own liking.
 * Scroll to the bottom of the page and click "skip this step".
- * Go to the email that you paired the accout with and open the conformation email and click the link in the email.
+  * Go to the email that you paired the accout with and open the conformation email and click the link in the email.
  
 **You now have a Github account!**
 
@@ -48,6 +48,8 @@ You will be doing all of your work on the websites github and cloud9.
 * Select "Blank" as the template and click "Create Workspace".
 
 After you have completed this, it is time to create an SSH key. 
+
+This allows you to only login to your github account on cloud9 once. If you use HTTPS, you will have to login everytime you use it
 
 #### To create an SSH key . . .
 * Go to your Github account and click your profile icon at the top-right corner of the screen.
@@ -77,7 +79,8 @@ Now we have to create a remote. A remote repo is a repository on Github that all
 * Go to your github account and on the top-right, click the "+" sign and click "New repository".
 * Name it the **exact same name** as a repo on your cloud9 that has the code you want to push (This is discussed in the Workflow and Commands section) to Github, or else it will not work.
 * Click "Create repository".
-  * If you were asked to verify your email, do it. If it did not, continue to the next steps.  
+  * If you were asked to verify your email, do it. If it did not, continue to the next steps.
+
 **You now have a remote repo!**
 
 Now you have to make the bridge between Github and cloud9 so you can start pushing your commits.
@@ -94,6 +97,7 @@ Now it is time to create your first file on your new cloud9 repo.
 
 #### To create your first README file . . .
 * Type `touch README.md` into the command line.  
+
 **You can now make changes in the file, then add and commit them.**
 
 #### To edit, add, and commit your file, one by one type into the command line . . .
@@ -129,7 +133,8 @@ There are two workflows that you can use
 2. Start at someone elses repo on github.
   * fork and clone
   * pull
-##### Collaboration
+
+#### Collaboration
 Github allows people to look at different repositories and use it to make edits of their own. They can then send their edits to the original user so they can add it to their own copy if they want to. This process uses the topic of pull requests and fork and clone and the commands `git pull`, `git clone`
 
 **Workflow of Collaboration**
@@ -183,11 +188,14 @@ If you want do undo a step that you took, there are different commands that you 
 ---
 ## Markdown Syntax
 This section's contents is meant to be used in files when editing them. This makes what you are typing more organized by controling what is displayed on the file.
+
 #### Italics
 * To make a phrase italic in Markdown, you can surround words with an underscore (_). For example, `_this_` would become italic and look like _this_.
+
 #### Bold
 * To make phrases bold in Markdown, surround the words you want bolded with two asterisks (**). The word "text" woud become **text** by typing in `**text**`.
   * To make text bold and italic, combine the two by typing both underscores and double asterisks (`**_text_**`).
+ 
 #### Headers
 * Add a `#` before the text you want to become a header.
   * The amount of headers you use changes the size of it. For example if you add only one `#`, the text will be the biggest size it can be (Header 1). If you add six `#`, the text will be the smallest size it can be (Header 6).
@@ -210,6 +218,7 @@ Other code
 [Google]: www.google.com
 [Github]: www.github.com
 ```
+
 #### Images
 Like headers, there are also two different ways to include images, inline image links and reference images.
 * Inline image links:
