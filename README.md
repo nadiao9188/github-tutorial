@@ -207,7 +207,7 @@ There are two ways to insert links, inline and reference links.
   * Reference links: The link text is a reference to another place in the file, where the actual link is.
     * Reference links would look like this when typed in the file
 
-```
+``` bash
 [Link to Google][Google]  
 [Link to Github][Github]
  
